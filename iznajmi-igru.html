@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- START -- METATAGS -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="GameShop - Najkvalitetnija i najnovija kompjuterska oprema.
+          Nudimo sirok asortiman raznovrsne gejmerske opreme i kompjuterskih delova.
+          Na sve to, kupovinom 2 kompjuterske igre ostvarujete 50% popusta na trecu!
+          Pored prodaje, nudimo i usluge iznajmljivanja konzola i igrica!"
+    />
+    <meta
+      name="keywords"
+      contents="GameShop, online prodavnica, gejming, igrice, online kupovina, gejming oprema"
+    />
+    <meta
+      name="author"
+      colntents="Vuk Arandjelovic, vuknrt2020@gs.viser.edu.rs"
+    />
+    <!--   END -- METATAGS -->
+    <!-- START -- LINKS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/lightbox.min.css" />
+    <link rel="icon" href="./assets/img/logo.png" type="image/x-icon" />
+    <!--   END -- LINKS -->
+    <title>GameShop</title>
+  </head>
+  <body>
+    <!-- START -- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"
+          ><img class="logo" src="./assets/img/logo.png" alt="Logo Sajta"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Početna</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./onama.html">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galerija.html">Galerija</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Proizvodi
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./proizvodi-delovi.html"
+                    >Kompjuterski Delovi</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./proizvodi-oprema.html"
+                    >Gejmerska Oprema</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./proizvodi-igre.html">Igre</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Usluge
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./iznajmi-konzolu.html"
+                    >Iznajmi konzolu</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./iznajmi-igru.html"
+                    >Iznajmi igru</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav me-5">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/vukvucko55"
+                >Fb</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/vukvucko55"
+                >In</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.twitter.com">Tw</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--   END -- NAVIGATION -->
+
+    <!-- START -- CONTENT -->
+    <div class="usluge-banner">
+      <img src="./assets/img/games-banner.jpg" alt="Iznajmi Konzolu" />
+    </div>
+    <div class="container">
+      <h2 class="display-4 py-3 usluge-naslov">Iznajmi igre</h2>
+      <hr />
+      <p class="col-md-12 fs-4">
+        Iznajmite igre za vašu konzolu po povoljnim cenama. Idealno za one-time
+        prilike ili isprobavanje igara! (Igre prikazane na ovoj strani ne
+        predstavljaju ceo asortiman igara koje nudimo. Za potpuni asortiman
+        igara pogledajte stranu <a href="./proizvodi-igre.html">igre</a>.)
+      </p>
+      <div class="card mb-3 usluge-items">
+        <div class="row g-0 align-items-center usluge-item">
+          <div class="col-md-4 usluge-img">
+            <img
+              src="./assets/img/proizvodi/igre/ps4mortalkombatx.png"
+              class="img-fluid"
+              alt="ps4mortalkombatx"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Iznajmi Mortal Kombat X (PS4)</h5>
+              <p class="card-text rounded">
+                Idealna igra za družine gde su 2 joystick-a sasvim dovoljna!
+                Izazovite svoje prijatelje i vidite ko je najbolji borac!
+              </p>
+              <a
+                class="btn btn-outline-light"
+                href="tel:+11-1337-420"
+                role="button"
+              >
+                >>Pozovi odmah
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card mb-3 usluge-items">
+        <div class="row g-0 align-items-center usluge-item">
+          <div class="col-md-4 usluge-img">
+            <img
+              src="./assets/img/proizvodi/igre/ps4thelastofus2.png"
+              class="img-fluid"
+              alt="ps4thelastofus2"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Iznajmi The Last of Us 2 (PS4)</h5>
+              <p class="card-text rounded">
+                Nekada nam je prosto potrebno da provedemo malo vremena sami sa
+                svojom konzolom. "The Last of Us 2" je idealna igra za osobe
+                koje vole da se udube u živote i priču karaktera, i da istinski
+                dožive ono što se događa iza ekrana.
+              </p>
+              <a
+                class="btn btn-outline-light"
+                href="tel:+11-1337-420"
+                role="button"
+              >
+                >>Pozovi odmah
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card mb-3 usluge-items">
+        <div class="row g-0 align-items-center usluge-item">
+          <div class="col-md-4 usluge-img">
+            <img
+              src="./assets/img/proizvodi/igre/xboxdoom3.png"
+              class="img-fluid"
+              alt="xboxdoom3"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Iznajmi DOOM 3 (XBox 360)</h5>
+              <p class="card-text rounded">
+                Ustali ste na levu nogu? Stresan dan? Problemi sa nervozom?
+                Iznajmite DOOM 3 i opustite se na svom kauču, jer je ovo jedna
+                od najboljih igra za izbacivanje stresa!
+              </p>
+              <a
+                class="btn btn-outline-light"
+                href="tel:+11-1337-420"
+                role="button"
+              >
+                >>Pozovi odmah
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card mb-3 usluge-items">
+        <div class="row g-0 align-items-center usluge-item">
+          <div class="col-md-4 usluge-img">
+            <img
+              src="./assets/img/proizvodi/igre/xboxforzahorizon3.png"
+              class="img-fluid"
+              alt="xboxforzahorizon3"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Iznajmi Forza Horizon 3 (XBox One)</h5>
+              <p class="card-text rounded">
+                Zavalite se u krevet i krenite na divlju vožnju kroz procvetale
+                zelene šume i travnjake koje vam pruža ova igra. Uživite se u
+                svet adrenalina i brze vožnje!
+              </p>
+              <a
+                class="btn btn-outline-light"
+                href="tel:+11-1337-420"
+                role="button"
+              >
+                >>Pozovi odmah
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card mb-3 usluge2-items">
+        <div class="row g-0 align-items-center usluge2-item">
+          <div class="col-md-8 usluge">
+            <div class="card-body">
+              <h5 class="card-title">Iznajmi konzolu</h5>
+              <p class="card-text">
+                Treba vam konzola kako bi igrali vašu omiljenu igru? Ne brinite
+                se, postaraćemo se za to! U ponudi nudimo usluge iznajmljivanja
+                konzola za video igre. Klikom na dugme možete saznati više o
+                tome! <br /><br />AKCIJA: Na svaka 5 iznajmljivanja, šesto
+                iznajmljivanje je besplatno!!!
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  >Trenutna akcija važi još 3 meseca</small
+                >
+              </p>
+              <a
+                class="btn btn-outline-light"
+                href="./iznajmi-igru.html"
+                role="button"
+                >Pogledaj ponude >></a
+              >
+            </div>
+          </div>
+          <div class="col-md-4 usluge2-img">
+            <img
+              src="./assets/img/iznajmiigru.png"
+              class="img-fluid"
+              alt="iznajmi igrice"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--   END -- CONTENT -->
+
+    <!-- START -- FOOTER -->
+    <footer>
+      <div class="row text-center">
+        <div class="col-md-12">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="./onama.html">O nama</a></li>
+            <li class="list-inline-item"><a href="./faq.html">FAQ</a></li>
+            <li class="list-inline-item">
+              <a href="./mapasajta.html">Mapa Sajta</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="./kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+          <p>
+            <i class="far fa-copyright" aria-hidden="true"></i> 2022 GameShop,
+            Mite Ružića 57b, Zvezdara,
+            <a href="mailto: GameShop@support.rs"> GameShop@support.rs</a>,
+            <a href="tel:+11-1337-420"> 011/1337-420 </a>
+            <div class="col-12 footer__copyright">
+              <p>All Rights Reserved</p>
+              <p>Vuk Aranđelović NRT-20/20</p>
+            </div>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--   END -- FOOTER -->
+
+    <!-- START -- SCRIPTS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/all.min.js"></script>
+    <script src="./assets/js/lightbox.min.js"></script>
+    <script src="./assets/js/lightbox-plus-jquery.min.js"></script>
+    <!--   END -- SCRIPTS -->
+  </body>
+</html>

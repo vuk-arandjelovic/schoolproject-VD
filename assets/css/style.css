@@ -1,0 +1,338 @@
+body {
+  background-color: rgba(150, 150, 150, 0.5);
+}
+ul.navbar-nav > li > a {
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgb(65, 65, 65);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+ul.navbar-nav > li.nav-item.dropdown > ul.dropdown-menu > li > a {
+  letter-spacing: 0.1rem;
+  background-color: rgb(65, 65, 65);
+  color: #fff;
+}
+/* Burger */
+body nav .container-fluid button .navbar-toggler-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body nav .container-fluid button .navbar-toggler-icon .burger {
+  background-color: rgb(129, 17, 17);
+  border-radius: 3px;
+  width: inherit;
+  height: 5px;
+}
+body nav .container-fluid button {
+  color: rgb(129, 17, 17);
+  background-color: rgb(65, 65, 65);
+}
+/* Burger */
+section {
+  margin-top: 2rem;
+}
+ul.navbar-nav > li {
+  color: #fff;
+}
+ul.navbar-nav > li.nav-item.dropdown > ul.dropdown-menu {
+  background-color: rgb(65, 65, 65);
+}
+
+nav {
+  background-color: rgb(65, 65, 65);
+}
+
+ul.me-5 {
+  margin-left: 3rem;
+}
+
+a .logo {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.carousel p {
+  background-color: #000000b9;
+}
+.carousel h5 {
+  margin-bottom: 0rem;
+  background-color: #000000b9;
+}
+.list-unstyled li {
+  padding: 1.5rem;
+  border-bottom: 1px solid #343a40;
+}
+
+.list-unstyled li a {
+  color: black;
+  text-decoration: none;
+}
+.nav-link.active {
+  color: rgb(129, 17, 17);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: rgb(129, 17, 17);
+}
+.photo-gallery {
+  color: #313437;
+}
+
+.photos {
+  padding-bottom: 20px;
+}
+.item {
+  padding-bottom: 30px;
+}
+
+.item img {
+  height: 222px;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.onama-logo img {
+  width: 280px;
+}
+
+#carousel {
+  margin-top: 0;
+  padding-top: 0;
+}
+#about .container .container-fluid {
+  color: #fff;
+}
+#about .container div {
+  background-color: rgb(129, 17, 17);
+}
+
+#about {
+  margin-bottom: 0;
+}
+.card {
+  background-color: rgb(129, 17, 17);
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.card img {
+  padding: 10px;
+}
+/* START -- FOOTER */
+footer {
+  letter-spacing: 0.1rem;
+  padding: 2rem;
+  margin-top: 7rem;
+  text-transform: uppercase;
+  background-color: rgb(65, 65, 65);
+}
+
+footer p {
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 0.2rem;
+  color: #ffffff;
+  transition: color 0.4s ease-in;
+}
+footer a:hover {
+  color: firebrick;
+}
+
+footer .footer__copyright {
+  font-size: 0.5rem;
+  letter-spacing: 1px;
+  opacity: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer .footer__copyright p {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-style: italic;
+}
+/*   END -- FOOTER */
+
+/* START -- ACCORRDION */
+.accordion {
+  width: 80%;
+}
+.accordion-parent {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+.accordion-naslovparent > div > h2 {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+.accordion-body {
+  color: #fff;
+}
+
+.accordion-body a {
+  text-decoration: none;
+  color: rgb(129, 17, 17);
+}
+.accordion-item {
+  background-color: rgba(65, 65, 65, 0.753);
+}
+.accordion-item button {
+  background-color: #b3b3b3;
+}
+.accordion-button:focus {
+  border-color: rgb(129, 17, 17);
+  box-shadow: 0 0 0 0.25rem rgb(129 17 17 / 25%);
+}
+.accordion-button:not(.collapsed) {
+  color: #ff0000;
+
+  background-color: rgb(65, 65, 65);
+}
+/*   END -- ACCORDION */
+/* START -- MAP */
+.container .mapa-sajta .mapitem {
+  background-color: #b3b3b3;
+  border-width: 2px;
+  border-radius: 0.75rem;
+  padding-top: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  width: 300px;
+}
+.container .mapa-sajta .mapitem a {
+  text-decoration: none;
+  color: rgb(129, 17, 17);
+  margin-left: 10px;
+}
+
+.container .mapsites {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .mapitem h5 {
+  margin-top: 5px;
+}
+/*   END -- MAP */
+
+/* START -- PROIZVODI */
+.proizvodi-banner img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container .proizvodi .proizvodi-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container .proizvodi .proizvodi-item {
+  background-color: #b3b3b3;
+  border-width: 2px;
+  border-radius: 0.75rem;
+  padding-top: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+  width: 300px;
+  margin-top: 30px;
+}
+.container .proizvodi-item a {
+  color: rgb(129, 17, 17);
+  text-decoration: none;
+  margin-top: 5px;
+  text-align: center;
+  display: block;
+}
+
+.container .proizvodi-item h5 {
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.container .proizvodi-item p {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.container .proizvodi-item img {
+  background-color: rgba(202, 202, 202, 255);
+  border-radius: 2rem;
+  width: 270px;
+}
+/*   END -- DELOVI */
+
+/* START -- USLUGE */
+.usluge-banner img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container p a {
+  text-decoration: none;
+  color: rgb(129, 17, 17);
+}
+
+.container .usluge-items {
+  margin-top: 30px;
+}
+
+.container .usluge-items .usluge-item .col-md-8 {
+  width: 800px;
+  margin-left: 60px;
+}
+
+.container .usluge-items .usluge-item .usluge-img {
+  height: 350px;
+  display: block;
+  text-align: center;
+  align-items: center;
+  padding-top: 25px;
+}
+.container .usluge-items .usluge-item .usluge-img img {
+  height: 300px;
+  background-color: #b3b3b3;
+  border-radius: 2rem;
+  margin-left: 25px;
+}
+/* usluge suprotna strana */
+.container .usluge2-items {
+  margin-top: 30px;
+}
+
+.container .usluge2-items .usluge2-item .col-md-8 {
+  width: 800px;
+  margin-left: 60px;
+}
+
+.container .usluge2-items .usluge2-item .usluge2-img {
+  height: 350px;
+  display: block;
+  text-align: center;
+  align-items: center;
+  padding-top: 25px;
+}
+.container .usluge2-items .usluge2-item .usluge2-img img {
+  height: 300px;
+  background-color: #b3b3b3;
+  border-radius: 2rem;
+  margin-right: 60px;
+}
+/*   END -- USLUGE */
